@@ -15,8 +15,8 @@ Este proyecto es una aplicación web ligera desarrollada con **Python** y **Flas
 ### Clonar Repositorio
 
 ```bash
-git clone https://github.com/usuario/server-p2p-python-flask.git
-cd server-p2p-python-flask
+git clone https://github.com/bill-vi/P2P-Python-File-Sharing.git
+cd P2P-Python-File-Sharing
 ```
 
 ### Crear Entorno Virtual
