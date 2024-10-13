@@ -62,7 +62,7 @@ sudo ufw allow 5000
 ```
 3. Ejecuta el siguiente comando para iniciar el servidor:
 ```bash
-python app.py
+python3 app.py
 ```
 4. Accede a la aplicación web desde tu navegador ingresando:
 ```bash
@@ -73,7 +73,7 @@ http://<dirección-de-ip_de_tu_pc>:5000
 1. Abre una terminal y navega a la carpeta del proyecto.
 2. Ejecuta el siguiente comando para iniciar el servidor:
 ```bash
-python app.py
+python3 app.py
 ```
 3. Accede a la aplicación web desde tu navegador ingresando:
 ```bash
