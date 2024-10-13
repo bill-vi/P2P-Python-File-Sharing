@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compartir Archivos P2P</title>
+</head>
+<body>
+    <h1>Compartir Archivos</h1>
+    <form method="post" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" required>
+        <button type="submit">Subir</button>
+    </form>
+    <h2>Archivos Subidos</h2>
+    <ul>
+        {% for file in files %}
+            <li><a href="{{ url_for('uploaded_file', filename=file) }}">{{ file }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
